@@ -39,6 +39,7 @@ const parseDsn = (dsn) => {
     if (sslMode) {
         connectionOptions.sslMode = sslMode;
     }
+    console.log(connectionOptions);
     return connectionOptions;
 };
 exports.parseDsn = parseDsn;

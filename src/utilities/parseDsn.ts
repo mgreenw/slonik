@@ -61,5 +61,7 @@ export const parseDsn = (dsn: string): ConnectionOptions => {
     connectionOptions.sslMode = sslMode as ConnectionOptions['sslMode'];
   }
 
+  console.log(connectionOptions)
+
   return connectionOptions;
 };
